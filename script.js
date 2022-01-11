@@ -26,10 +26,7 @@ getData();
 const displayData = (obj) => {
   mainContainer.innerHTML += `
     <div id="subcont" class="container">
-   <div i> <span> Dog ID=</div>
-   <div id="dog_id">${obj.message}</div>
-      <p class="para blue"> Created At=<span> ${obj.status}</span></p>
-              <img id="myImg" src="https://images.dog.ceo/breeds/mix/Annabelle12.jpeg" alt=""  >
+              <img id="myImg" src="${obj.message}" alt=""  >
    
     `;
 };
